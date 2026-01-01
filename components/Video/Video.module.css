@@ -1,0 +1,52 @@
+.Video {
+  width: 100%;
+  margin-top: 14rem;
+  margin-bottom: 5rem;
+}
+
+.Video_box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Video_box h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.Video_box p {
+  font-size: 1.3rem;
+  width: 40%;
+  line-height: 1.2;
+}
+
+/* MAIN WRAPPER IS RELATIVE */
+.Video_box_frame {
+  position: relative;
+  margin-top: 6rem;
+}
+
+/* IMAGE ON TOP */
+.Video_box_frame_left {
+  position: relative;
+  z-index: 3;     /* --- IMAGE ALWAYS IN FRONT --- */
+}
+
+.Video_box_frame_left img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+/* BACKGROUND BOX BEHIND IMAGE */
+.Video_box_frame_right {
+  position: absolute;
+  top: -10%;       /* adjust for overlap */
+  left: 25%;      /* move right */
+  width: 85%;     /* size */
+  height: 110%;    /* size */
+  background: var(--icons-color);
+  border-radius: 0.5rem;
+  z-index: 1;     /* --- BEHIND IMAGE --- */
+}
+
