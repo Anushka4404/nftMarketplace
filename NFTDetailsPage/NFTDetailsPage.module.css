@@ -1,0 +1,95 @@
+/* 
+
+.NFTDetailsPage{
+    width: 100%;
+    margin-block: 5rem;
+}
+
+.NFTDetailsPage_box{
+    width: 80%;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 5rem;
+}
+
+@media screen and (max-width: 35em) {
+    .NFTDetailsPage{
+        margin-block: 2rem;
+    }
+
+    .NFTDetailsPage_box{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+} */
+
+.NFTDetailsPage {
+    width: 100%;
+    margin-block: 5rem;
+
+    /* ensure center alignment */
+    display: flex;
+    justify-content: center;
+}
+
+.NFTDetailsPage_box {
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 5rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------- MOBILE (0–560px) ---------- */
+@media screen and (max-width: 35em) {
+    .NFTDetailsPage {
+        margin-block: 2rem;
+        padding-inline: 1rem; /* prevents right sliding */
+    }
+
+    .NFTDetailsPage_box {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+
+        /* center everything */
+        place-items: center;
+        text-align: center;
+    }
+}
+
+/* ---------- LARGE MOBILE / SMALL TABLET (560–768px) ---------- */
+@media screen and (min-width: 35em) and (max-width: 48em) {
+    .NFTDetailsPage_box {
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+
+        place-items: center;
+    }
+}
+
+/* ---------- TABLET (768–992px) ---------- */
+@media screen and (min-width: 48em) and (max-width: 62em) {
+    .NFTDetailsPage_box {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+/* ---------- LARGE TABLET / SMALL LAPTOP (992–1200px) ---------- */
+@media screen and (min-width: 62em) and (max-width: 75em) {
+    .NFTDetailsPage_box {
+        width: 85%;
+        gap: 4rem;
+    }
+}

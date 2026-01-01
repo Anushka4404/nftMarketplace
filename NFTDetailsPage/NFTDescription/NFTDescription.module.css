@@ -1,0 +1,647 @@
+/* 
+.NFTDescription{
+    width: 100%;
+}
+
+.NFTDescription_box{
+    width: 100%;
+    margin:  0 auto;
+}
+
+.NFTDescription_box_share{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.NFTDescription_box_share_box_icon{
+    cursor: pointer;
+}
+
+.NFTDescription_box_share_box_social{
+    position: absolute;
+    top: 5rem;
+    left: 65%;
+    width: 14rem;
+    background-color: var(--main-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.NFTDescription_box_share_box_social a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all .3s ease-in;
+    padding: .5rem 0;
+}
+
+.NFTDescription_box_share_box_social a:hover{
+    background-color: var(--icons-color);
+    color: var(--main-bg-color);
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+}
+
+.NFTDescription_box_share p{
+    background-color: var(--icons-color);
+    color: var(--main-bg-color);
+    padding: .2rem .8rem;
+    border-radius: 2rem;
+}
+
+.NFTDescription_box_share_box{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+.NFTDescription_box_profile h1{
+    font-size: 3.2rem;
+    line-height: 1;
+}
+
+.NFTDescription_box_profile_box{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.NFTDescription_box_profile_box_left{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 1rem;
+    line-height: 1;
+}
+
+.NFTDescription_box_profile_box_right_info small,
+.NFTDescription_box_profile_box_left_info small{
+    font-weight: 500;
+}
+
+.NFTDescription_box_profile_box_right_info span,
+.NFTDescription_box_profile_box_left_info span{
+    font-weight: 800;
+}
+
+.NFTDescription_box_profile_box_left_img{
+    border-radius: 50%;
+}
+
+.NFTDescription_box_profile_box_right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1;
+    border-left: 1px solid var(--icons-color);
+    padding-left: 2rem;
+}
+
+.NFTDescription_box_profile_biding{
+    margin-block: 1rem;
+}
+
+.NFTDescription_box_profile_biding p{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.NFTDescription_box_profile_biding_box_timer{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.NFTDescription_box_profile_biding_box_timer_item p{
+    font-size: 3rem;
+    line-height: 0;
+    font-weight: 900;
+}
+
+.NFTDescription_box_profile_biding_box_timer_item span{
+    font-weight: 600;
+}
+
+.NFTDescription_box_profile_biding_box_price{
+    line-height: 0;
+    margin-top: 4rem;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 3rem;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.NFTDescription_box_profile_biding_box_price_bid{
+    border:  2px solid var(--icons-color);
+    border-radius: .5rem;
+}
+
+.NFTDescription_box_profile_biding_box_price_bid small{
+    font-size: 1.2rem;
+    background-color: var(--icons-color);
+    color: var(--main-bg-color);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    margin-left: 2rem;
+}
+
+.NFTDescription_box_profile_biding_box_price_bid p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.NFTDescription_box_profile_biding_box_button{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.NFTDescription_box_profile_biding_box_tabs{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.NFTDescription_box_profile_biding_box_tabs button{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border:  0;
+    background-color: var(--shadow-dark-color);
+    color: var(--icons-color);
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.NFTDescription_box_profile_biding_box_card{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+
+@media screen and (max-width: 35em) {
+    .NFTDescription_box_share_box_social{
+        left: 35%;
+    }
+    .NFTDescription_box_profile_box{
+        display: grid;
+    }
+
+    .NFTDescription_box_profile_box_right{
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .NFTDescription_box_profile_biding_box_price{
+        gap: 1rem;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .NFTDescription_box_profile_biding_box_price_bid p{
+        font-size: 1rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_button{
+        gap: 2rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_tabs button{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+        font-weight: 500;
+    }
+
+    .button{
+        font-size: 1rem;
+        padding: 1rem 1.2rem;
+    }
+} */
+
+
+
+.NFTDescription {
+    width: 100%;
+}
+
+.NFTDescription_box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ------------------------------------------
+   SHARE BAR
+------------------------------------------ */
+.NFTDescription_box_share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;          /* ⭐ Prevent overflow on small screens */
+    gap: 1rem;
+}
+
+.NFTDescription_box_share_box_icon {
+    cursor: pointer;
+}
+
+.NFTDescription_box_share_box_social {
+    position: absolute;
+    top: 4.5rem;
+    left: auto;
+    right: 0;                 /* ⭐ keeps dropdown inside screen */
+    width: 14rem;
+    background-color: var(--main-bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.NFTDescription_box_share_box_social a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all .3s ease-in;
+    padding: .5rem 0;
+}
+
+.NFTDescription_box_share_box_social a:hover {
+    background-color: var(--icons-color);
+    color: var(--main-bg-color);
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+}
+
+.NFTDescription_box_share p {
+    background-color: var(--icons-color);
+    color: var(--main-bg-color);
+    padding: .2rem .8rem;
+    border-radius: 2rem;
+}
+
+.NFTDescription_box_share_box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+/* ------------------------------------------
+   PROFILE BLOCK
+------------------------------------------ */
+.NFTDescription_box_profile h1 {
+    font-size: 3.2rem;
+    line-height: 1;
+    word-break: break-word;
+}
+
+.NFTDescription_box_profile_box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+    flex-wrap: wrap;         /* ⭐ prevents breaking on smaller screens */
+}
+
+.NFTDescription_box_profile_box_left,
+.NFTDescription_box_profile_box_right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1;
+}
+
+.NFTDescription_box_profile_box_left_img {
+    border-radius: 50%;
+}
+
+.NFTDescription_box_profile_box_right {
+    border-left: 1px solid var(--icons-color);
+    padding-left: 2rem;
+}
+
+.NFTDescription_box_profile_biding {
+    margin-block: 1rem;
+}
+
+.NFTDescription_box_profile_biding p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+/* ------------------------------------------
+   TIMER
+------------------------------------------ */
+.NFTDescription_box_profile_biding_box_timer {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: wrap;     /* ⭐ Prevents overflow on mobile */
+}
+
+.NFTDescription_box_profile_biding_box_timer_item p {
+    font-size: 3rem;
+    line-height: 0;
+    font-weight: 900;
+}
+
+.NFTDescription_box_profile_biding_box_timer_item span {
+    font-weight: 600;
+}
+
+/* ------------------------------------------
+   PRICE BOX
+------------------------------------------ */
+.NFTDescription_box_profile_biding_box_price {
+    line-height: 0;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.NFTDescription_box_profile_biding_box_price_bid {
+    border: 2px solid var(--icons-color);
+    border-radius: .5rem;
+    padding: 20px 25px;
+}
+
+.NFTDescription_box_profile_biding_box_price_bid small {
+    font-size: 1.2rem;
+    background-color: var(--icons-color);
+    color: var(--main-bg-color);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    margin-left: 2rem;
+}
+
+.NFTDescription_box_profile_biding_box_price_bid p {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 900; 
+}
+
+/* ------------------------------------------
+   BUTTONS
+------------------------------------------ */
+.NFTDescription_box_profile_biding_box_button {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;      /* ⭐ prevents overflow */
+}
+
+/* ------------------------------------------
+   TABS
+------------------------------------------ */
+.NFTDescription_box_profile_biding_box_tabs {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.NFTDescription_box_profile_biding_box_tabs button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: 0;
+    background-color: var(--shadow-dark-color);
+    color: var(--icons-color);
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.NFTDescription_box_profile_biding_box_card {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+/* =====================================================
+   📱 MOBILE RESPONSIVE (max-width: 560px)
+===================================================== */
+@media screen and (max-width: 35em) {
+
+    .NFTDescription_box_share_box_social {
+        right: 0;
+        left: auto; /* Fix dropdown going outside */
+    }
+
+    .NFTDescription_box_profile_box {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .NFTDescription_box_profile_box_right {
+        border: none;
+        padding-left: 0;
+    }
+
+    .NFTDescription_box_profile_biding_box_price {
+        gap: 1rem;
+        grid-template-columns: 1fr;   /* ⭐ Stack price box */
+    }
+
+    .NFTDescription_box_profile_biding_box_price_bid p {
+        font-size: 1rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_button {
+        gap: 1.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .NFTDescription_box_profile_biding_box_tabs button {
+        font-size: 0.9rem;
+        padding: .6rem 1rem;
+        font-weight: 500;
+    }
+
+    .button {
+        font-size: 1rem;
+        padding: 1rem 1.2rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_timer {
+        gap: 2rem;
+    }
+}
+
+/* =====================================================
+   📱📱 TABLET (560px – 992px)
+===================================================== */
+@media screen and (min-width: 36em) and (max-width: 62em) {
+
+    .NFTDescription_box_profile h1 {
+        font-size: 2.5rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_price {
+        grid-template-columns: 3fr 1fr;
+        gap: 2rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_timer {
+        gap: 2rem;
+    }
+}
+
+
+/* =====================================================
+   ⭐ FIX 1 — Center all user cards in NFTTabs on mobile
+===================================================== */
+@media screen and (max-width: 35em) {
+
+    /* Wrap the NFTTabs items and center them */
+    .NFTDescription_box_profile_biding_box_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    /* Center images inside the NFTTabs component */
+    .NFTDescription_box_profile_biding_box_card img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* If tabs have flex/row items inside, center them */
+    .NFTTabs_box,
+    .NFTTabs_box_item {
+        width: 100%;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+
+
+/* =====================================================
+   ⭐ FIX 2 — Make Bid History / Provanance / Owner BUTTONS visible & centered
+===================================================== */
+@media screen and (max-width: 35em) {
+
+    .NFTDescription_box_profile_biding_box_tabs {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;   /* ⭐ buttons in center */
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_tabs button {
+        padding: 0.7rem 1.4rem;
+        font-size: 0.95rem;
+        width: auto;        /* no shrinking */
+        white-space: nowrap;
+        border-radius: 1.5rem;
+    }
+}
+
+
+/* =====================================================
+   ⭐ MOBILE FIXES — Perfect centering for all content
+===================================================== */
+@media screen and (max-width: 35em) {
+
+    /* ---------------------------------------------
+       1. CENTER "Auction ending in" SECTION
+    --------------------------------------------- */
+    .NFTDescription_box_profile_biding p {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .NFTDescription_box_profile_biding_box_timer {
+        justify-content: center !important;
+        text-align: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .NFTDescription_box_profile_biding_box_timer_item {
+        text-align: center;
+    }
+
+    /* ---------------------------------------------
+       2. CENTER "Current Bid" box
+    --------------------------------------------- */
+    .NFTDescription_box_profile_biding_box_price {
+        grid-template-columns: 1fr;     /* stack the price + stock */
+        justify-items: center;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .NFTDescription_box_profile_biding_box_price_bid {
+        width: 100%;
+        max-width: 260px;
+    }
+
+    .NFTDescription_box_profile_biding_box_price_bid small {
+        margin-left: 0;     
+        display: block;
+        text-align: center;
+    }
+
+    /* ---------------------------------------------
+       3. CENTER creator/owner images + names
+    --------------------------------------------- */
+    .NFTDescription_box_profile_box {
+        justify-content: center !important;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .NFTDescription_box_profile_box_left,
+    .NFTDescription_box_profile_box_right {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .NFTDescription_box_profile_box_right {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    /* Center the name + verified icon */
+    .NFTDescription_box_profile_box_left_info span,
+    .NFTDescription_box_profile_box_right_info span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .4rem;
+    }
+
+    /* ---------------------------------------------
+       Extra: Improve spacing on mobile
+    --------------------------------------------- */
+    .NFTDescription_box {
+        text-align: center;
+    }
+}
